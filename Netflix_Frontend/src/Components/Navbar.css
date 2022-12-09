@@ -1,0 +1,59 @@
+.navbar{
+    width: 100%;
+    margin:0 auto;
+    padding: 0 20px;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.image img{
+    width:30%;
+}
+.option{
+    min-width:170px ;
+}
+.option #lang{
+    padding:8px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.option .signIn{
+    width: 100%;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgba(229, 14, 14, 0.808);
+    border-radius:5px;
+    border: none;
+    margin:0 10px;
+}
+@media(max-width:870px){
+    .option .signIn{
+        font-size: 0.7rem;
+    }
+    .option #lang{
+        font-size: 0.7rem;
+    }
+    .navbar{
+        padding-top: 20px;
+    }
+}
+@media(max-width:750px){
+    .navbar .option{
+        padding: 0;
+    }
+}
+@media(max-width:618px){
+    .option{
+        padding: 0;
+    }
+    .image img{
+        width:40%;
+    }
+    .navbar{
+        padding:10px;
+    }
+}

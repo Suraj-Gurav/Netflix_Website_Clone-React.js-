@@ -1,0 +1,63 @@
+
+.email{
+    width:55%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.email p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.inputEmail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.inputEmail  input{
+    width:100%;
+    border:none;
+    padding:18px 10px;
+    font-size:1.2rem;
+}
+.inputEmail input:focus{
+    outline:none;
+}
+.inputEmail button{
+    width:50%;
+    padding:15px 0;
+    border:none;
+    background:rgba(225, 18, 18, 0.915);
+    color:#fff;
+    font-size:1.5rem;
+    cursor:pointer;
+    transition: all .3s ease;
+    outline:none;
+}
+@media(max-width:650px){
+    .email{
+        width: 95%;
+    }
+    .email p{
+        font-size:1.2rem;        
+    }
+   
+}
+@media(max-width:550px){
+    .email{
+        width: 95%;
+    }
+    .email p{
+        font-size:1.2rem;        
+    }
+    .inputEmail  input{
+        padding:10px 10px;
+        font-size:1rem;
+    }
+    .inputEmail button{
+        padding:10px 0;
+        font-size:1rem;
+    }
+}
